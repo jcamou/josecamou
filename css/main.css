@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	font: 100%/1.875 "chaparral-pro", sans-serif;
+	background-color: rgba(54, 54, 54, 1);
+}
+.content {
+	width: 80%;
+	height: 100%;
+	bottom: 0;
+	margin-left: 15%;
+	right: 0;
+	color: #ebebeb;
+}
+
+.masthead {
+	width: 15%;
+	height: 100%;
+	float: left;
+	top: 0;
+	background-image: url('../img/paper_fibers.png'); 
+	border-right: 1px solid rgba(28, 28, 28, 1);
+	padding: 0 2em;
+	bottom: 0;
+	position: fixed;
+	color: rgba(54, 54, 54, 1);
+	top: 0;
+}
+
+.wrapper {
+	width: 60%;
+	margin: 100px 300px;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+a {
+	color: #00bff3;
+		text-decoration: none;
+	-webkit-transition: color 400ms ease;
+	-moz-transition: color 400ms ease;
+	-o-transition: color 400ms ease;
+	-ms-transition: color 400ms ease;
+	transition: color 400ms ease;
+}
+
+a:hover{
+	color: #ff7bd0;
+	-webkit-transition: color 70ms ease;
+	-moz-transition: color 70ms ease;
+	-o-transition: color 70ms ease;
+	-ms-transition: color 70ms ease;
+	transition: color 70ms ease;
+}
+
+h1 {
+	 font-family: "jaf-domus-titling-web";
+}
