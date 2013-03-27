@@ -1,0 +1,20 @@
+---
+layout: default
+title: Articles
+---
+
+    {% for post in site.posts %}
+      {% if post.layout != 'work' %}
+
+        <article class="preview">
+            <h2><a href="{{site.site_url_local}}{{post.url}}">{{post.title}}</a></h2>
+            <p>{{post.content | truncatewords:25}}</p>
+            <div class="meta">
+              <time>{{post.date}}</time>
+              <ul>
+                <li><a class="tag" href="#">{{post.tags}}</a></li>
+              </ul>
+            </div>
+        </article>
+      {% endif %}
+    {% endfor %}
