@@ -1,4 +1,6 @@
-josecamou
+josecamou.com
 =========
 
-My site
+My own site
+
+All code and content remain copyright of José Camou.
