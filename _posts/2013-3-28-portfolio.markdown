@@ -1,10 +1,10 @@
 ---
 layout: work
-title: "ThinkSpace.org"
-year: 2013
+title: "Portfolio Journey"
+year: 2012 - 2013
 categories: work
 tags: [Design and Development]
-description: "Marketing site for ThinkSpace to bring new users and engage current users"
+description: "Witness the growth and change of my personal site within a year"
 ---
 
 ThinkSpace needed a place that could both educate new users while still engaging current users. Educating new users about what ThinkSpace is has proven to be a challenge in itself. 

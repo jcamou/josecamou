@@ -33,18 +33,18 @@
                     <div class="nav-content">
                         <ul class="left">
                             <li>
-                                <a href="/">Home</a>
+                                <a href="{{site.site_url}}">Home</a>
                             </li>
                             <li>
-                                <a href="#">About</a>
+                                <a href="{{site.site_url}}/about/">About</a>
                             </li>
                         </ul>
                         <ul class="right">
                             <li>
-                                <a href="{{site.site_url}}/post-archive.html">Articles</a>
+                                <a href="{{site.site_url}}/articles/">Articles</a>
                             </li>
                             <li>
-                                <a href="{{site.site_url}}/work-archive.html">Work</a>
+                                <a href="{{site.site_url}}/work/">Work</a>
                             </li>
                         </ul>
                     </div>
@@ -63,5 +63,14 @@
         <!-- JS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="{{site.site_url}}/js/main.js"></script>
+
+        <!-- Analytics 
+        <script>
+            var _gaq=[['_setAccount','UA-35671892-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+        -->
     </body>
 </html>
