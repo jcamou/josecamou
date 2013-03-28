@@ -3,7 +3,7 @@ layout: work
 title: "Filmhauz"
 year: 2013
 categories: work
-tags: Design/Development
+tags: [Design and Development]
 description: "A collection of critical essays and illustrations about film"
 ---
 

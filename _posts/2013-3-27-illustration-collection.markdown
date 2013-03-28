@@ -1,7 +1,7 @@
 ---
 layout: work
-title: "Conference Posters"
-year: 2013
+title: "Illustration Collection"
+year: 2011 - 2012
 categories: work
 tags: [Graphic Design]
 description: "A collection of critical essays and illustrations about film"

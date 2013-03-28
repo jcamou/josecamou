@@ -331,7 +331,8 @@ body {
   .preview .meta time {
     display: inline-block;
     float: left;
-    font-style: italic; }
+    font-style: italic;
+    margin-top: 5px; }
   .preview .meta .tag {
     display: inline-block;
     float: right; }
@@ -425,8 +426,8 @@ body {
       text-align: center; }
 
   .content {
-    padding-left: 8.33333%;
-    padding-right: 8.33333%; }
+    padding-left: 5.5%;
+    padding-right: 5.5%; }
     .content > article.preview {
       padding-right: 1em; }
       .content > article.preview h2 {

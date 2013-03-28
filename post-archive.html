@@ -10,7 +10,7 @@ title: Articles
             <h2><a href="{{site.site_url}}{{post.url}}">{{post.title}}</a></h2>
             <p>{{post.content | truncatewords:25}}</p>
             <div class="meta">
-              <time>{{post.date}}</time>
+              <time>{{post.date | date: "%b %d, %Y"}}</time>
               <ul>
                 <li><a class="tag" href="#">{{post.tags}}</a></li>
               </ul>

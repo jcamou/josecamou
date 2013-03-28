@@ -3,7 +3,7 @@ layout: work
 title: "ThinkSpace.org"
 year: 2013
 categories: work
-tags: Design/Development
+tags: [Design and Development]
 description: "Marketing site for ThinkSpace to bring new users and engage current users"
 ---
 
