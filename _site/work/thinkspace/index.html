@@ -36,12 +36,12 @@
                                 <a href="/">Home</a>
                             </li>
                             <li>
-                                <a href="#">About</a>
+                                <a href="/GitHub/josecamou-com/_site/about/">About</a>
                             </li>
                         </ul>
                         <ul class="right">
                             <li>
-                                <a href="/GitHub/josecamou-com/_site/post-archive.html">Articles</a>
+                                <a href="/GitHub/josecamou-com/_site/articles/">Articles</a>
                             </li>
                             <li>
                                 <a href="/GitHub/josecamou-com/_site/work-archive.html">Work</a>
