@@ -15,5 +15,17 @@ layout: default
          	{{content}}
            
         </div>
-
     </article>
+
+    <nav class="pagination">
+      {% if page.work_older %}
+        <div class="older">
+          <a href="{{site.site_url}}{{page.work_older.url}}" rel="prev" data-icon=">">Older Work</a>
+        </div>
+      {% endif %}
+      {% if page.work_newer %}
+        <div class="newer">
+          <a href="{{site.site_url}}{{page.work_newer.url}}" rel="newer">Newer Work</a>
+        </div>
+      {% endif %}
+    </nav>

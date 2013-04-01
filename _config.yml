@@ -1,5 +1,6 @@
 site_name: 'José Camou'
-site_url: 'http://josecamou.com/next_v/'
+site_url: 'http://josecamou.com/next_v'
 site_url_local: '/GitHub/josecamou-com/_site'
 markdown: rdiscount
 permalink: /:categories/:title
+pagination: 2

@@ -97,8 +97,7 @@ body {
   text-transform: uppercase;
   color: #27313e;
   line-height: 3rem;
-  font-weight: 300;
-  margin-bottom: 1rem; }
+  font-weight: 400; }
 
 /* Headings
 -------------------------------------------------------------- */
@@ -175,6 +174,42 @@ a.pullout-nav {
   a.pullout-nav:hover {
     color: #ff6666; }
 
+.pagination a {
+  font-size: 1em;
+  font-family: "omnes-pro", sans-serif;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  background: rgba(254, 254, 254, 0.3);
+  padding: .875em;
+  top: 65%;
+  width: 9em; }
+
+.older a {
+  position: fixed;
+  right: 0;
+  margin-right: -8em;
+  text-align: right; }
+  .older a:hover {
+    margin-right: 0;
+    background: white; }
+  .older a:before {
+    font-family: 'Pictos Custom';
+    -webkit-font-smoothing: antialiased;
+    content: attr(data-icon); }
+
+.newer a {
+  position: fixed;
+  left: 0;
+  margin-left: -8em;
+  text-align: left; }
+  .newer a:hover {
+    margin-left: 0;
+    background: white; }
+
 /* Navigation
 -------------------------------------------------------------- */
 .site-nav .nav-content {
@@ -241,6 +276,9 @@ a.pullout-nav {
 
 /* Media
 -------------------------------------------------------------- */
+p img {
+  border: 1px solid #cccccc; }
+
 /* Layout
 -------------------------------------------------------------- */
 body {
@@ -295,7 +333,7 @@ body {
   background-color: #eae9e7;
   overflow: hidden;
   padding-top: 10rem;
-  padding-bottom: 6em; }
+  padding-bottom: 3em; }
   .content article {
     position: relative;
     max-width: 700px; }
@@ -315,7 +353,7 @@ body {
     .content article.preview:first-child h2 {
       border-top: none; }
     .content article.preview:nth-child(even) {
-      background-color: rgba(254, 254, 254, 0.2);
+      background-color: rgba(254, 254, 254, 0.3);
       transition: background-color 0.25s ease-in-out;
       -webkit-transition: background-color 0.25s ease-in-out;
       -ms-transition: background-color 0.25s ease-in-out;
@@ -445,4 +483,22 @@ body {
 
   .main-content p:first-child {
     font-size: 1.5em;
-    line-height: 1.4em; } }
+    line-height: 1.4em; }
+
+  .pagination {
+    margin-top: 2em; }
+    .pagination a {
+      display: block;
+      width: 50%; }
+
+  .older a, .newer a {
+    position: static;
+    margin: 0;
+    text-align: center;
+    padding: 1em 0; }
+
+  .older a {
+    float: right; }
+
+  .newer a {
+    float: left; } }

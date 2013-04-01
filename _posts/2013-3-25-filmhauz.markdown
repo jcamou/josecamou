@@ -7,6 +7,6 @@ tags: [Design and Development]
 description: "A collection of critical essays and illustrations about film"
 ---
 
-That evening Mr. Utterson came home to his bachelor house in sombre spirits and sat down to dinner without relish. It was his custom of a Sunday, when this meal was over, to sit close by the fire, a volume of some dry divinity on his reading desk, until the clock of the neighbouring church rang out the hour of twelve, when he would go soberly and gratefully to bed. 
+There is an abundance of film blogs on the internet but very little take advantage of the web as an artistic medium itself. A well written essay is covered with movie ads, poorly designed site structure and no consideration for smaller screen sizes.
 
-That evening Mr. Utterson came home to his bachelor house in sombre spirits and sat down to dinner without relish. It was his custom of a Sunday, when this meal was over, to sit close by the fire, a volume of some dry divinity on his reading desk, until the clock of the neighbouring church rang out the hour of twelve, when he would go soberly and gratefully to bed. 
+I started Filmhauz to fill that void. Built on wordpress and made with every screen in mind. 

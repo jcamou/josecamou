@@ -4,6 +4,7 @@ title: "About me"
 year: 2013
 permalink: /about/
 ---
+![portrait]({{site.site_url}}/img/boat.jpg "portrait")
 
 I am a web designer, developer and film aficionado. Not necessarily in that order. I love building things on the web and designing for the best possible experience across all devices and contexts. 
 
@@ -21,6 +22,7 @@ Ma Skillz
 *	Illustrator
 *	inDesign
 *	Paper & Pencil
+*	User Testing
 
 
 
