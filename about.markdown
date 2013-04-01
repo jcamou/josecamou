@@ -21,6 +21,7 @@ Ma Skillz
 *	Illustrator
 *	inDesign
 *	Paper & Pencil
+*	User Testing
 
 
 
