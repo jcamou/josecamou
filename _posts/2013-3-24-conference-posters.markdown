@@ -1,12 +1,17 @@
 ---
 layout: work
 title: "Conference Posters"
-year: 2013
+year: 2012
 categories: work
 tags: [Graphic Design]
 description: "Research posters I've had the pleasure of designing"
 ---
 
-People need research to look good. So they come to me. 
+Poster design for academic research is an interesting design challenge. The content is full of dense data that needs to be conveyed visually and grab the audiences' attention. 
 
-That evening Mr. Utterson came home to his bachelor house in sombre spirits and sat down to dinner without relish. It was his custom of a Sunday, when this meal was over, to sit close by the fire, a volume of some dry divinity on his reading desk, until the clock of the neighbouring church rang out the hour of twelve, when he would go soberly and gratefully to bed. 
+![poster rubric]({{site.site_url}}/img/projects/conference-posters/rubric_poster.png "poster rubric")
+
+My technique has been to strategically combine color, images, and engaging content to guide the readers eyes through the poster.
+
+![poster urban-forecast]({{site.site_url}}/img/projects/conference-posters/urbanforecast.png "poster urban-forecast")
+

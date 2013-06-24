@@ -8,17 +8,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>José Camou</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width" />
+
         
         <link rel="shortcut icon" href="/favicon.ico" />
 
-        <link rel="stylesheet" href="http://josecamou.com/next_v/css/style.css">
+        <link rel="stylesheet" href="/GitHub/josecamou-com/_site/css/style.css">
         
         <!-- fonts -->
         <script type="text/javascript" src="//use.typekit.net/vuo0kub.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
         <link href="//get.pictos.cc/fonts/4071/1" rel="stylesheet" type="text/css">
+
+        <!-- Widow Tamer -->
+        <script src="/GitHub/josecamou-com/_site/js/widowtamer.js"></script>
         
     </head>
     <body>
@@ -34,18 +38,18 @@
                     <div class="nav-content">
                         <ul class="left">
                             <li>
-                                <a href="http://josecamou.com/next_v">Home</a>
+                                <a href="/GitHub/josecamou-com/_site">Home</a>
                             </li>
                             <li>
-                                <a href="http://josecamou.com/next_v/about/">About</a>
+                                <a href="/GitHub/josecamou-com/_site/about/">About</a>
                             </li>
                         </ul>
                         <ul class="right">
                             <li>
-                                <a href="http://josecamou.com/next_v/articles/">Articles</a>
+                                <a href="/GitHub/josecamou-com/_site/articles/">Articles</a>
                             </li>
                             <li>
-                                <a href="http://josecamou.com/next_v/work/">Work</a>
+                                <a href="/GitHub/josecamou-com/_site/work/">Work</a>
                             </li>
                         </ul>
                     </div>
@@ -57,19 +61,79 @@
         <article class="container">
     
         <header class="post-header">
-            <h1>Portfolio Journey</h1>
+            <h1>A year’s worth of web design resources (part I)</h1>
+            
               <p class="post-precontent">
-                    <time pubdate>Mar 5th, 2013</time>
+                    <time pubdate>Jun 23, 2013</time>
               </p>
+            
         </header>
 
         <div class="main-content">
 
-            <p>ThinkSpace needed a place that could both educate new users while still engaging current users. Educating new users about what ThinkSpace is has proven to be a challenge in itself.</p>
+            <p>2012 was the year I decided to focus on a career in web design. In just 1 year I was able to go from knowing nothing about the field to developing a complex web app with current standards and technologies. This is a documentation of resources that helped me get to where I am now.</p>
 
-<p><img src="http://josecamou.com/next_v/img/projects/thinkspace-org/about.png" title="ThinkSpace About" alt="thinkspace about" /></p>
+<h2>Notice</h2>
 
-<p>I designed <a href="http://thinkspace-landing.herokuapp.com/" title="ThinkSpace.org">thinkspace.org</a>, inspired by the mailchimp annual report, which introduces ThinkSpace in a sequence of steps much like a story. Each step fades to a different color to keep the user engaged. To satisfy the current user's needs I created a discussion section that allows them to continue discussions that were taking place off line to form a ThinkSpace community.</p>
+<p>This list is organized in a recommended order and is split into 3 chronological chunks:</p>
+
+<ol>
+<li>Getting your feet wet (Month 1 - 3)</li>
+<li>Dunking the crotch (Month 4 - 8)</li>
+<li>Full head submersion (Month 9 - 12 and on)</li>
+</ol>
+
+
+<p><small>* Using a swimming metaphor seems appropriate in this context.</small></p>
+
+<p>Each chunk represents the time in the year where I found a resource the most helpful without getting too overwhelmed (which is something that happens often in a field where new technologies pop up daily). The items within the chunk are in a recommended order but feel free to jump around. You might find that it takes you longer than a year to feel as comfortable or maybe shorter, but do not get discouraged. Everyone learns at a different pace.</p>
+
+<h2>Getting your feet wet</h2>
+
+<h3><a href="https://twitter.com/">Twitter</a></h3>
+
+<p>First things first, get a Twitter account if you haven’t gotten one yet. Twitter puts you in the center of the conversation between the big names who love talking about the most recent technology and articles. Even if at first you don’t understand any of what they’re saying, the more you read what they’re talking about and see what they’re doing the more familiar things will seem. So when you hear someone talk about "Flexbox" you can easily follow along or even better you can have some input in the conversation.</p>
+
+<p>Once you have a twitter account, here are a few people you should be following (and feel free to see who they’re following and follow them as well):</p>
+
+<ul>
+<li><a href="https://twitter.com/brad_frost">Brad Frost</a></li>
+<li><a href="https://twitter.com/TrentWalton">Trent Walton</a></li>
+<li><a href="https://twitter.com/paul_irish">Paul Irish</a></li>
+<li><a href="https://twitter.com/zeldman">Jeffrey Zeldman</a></li>
+<li><a href="https://twitter.com/chriscoyier">Chris Coyier</a></li>
+<li><a href="https://twitter.com/jbrewer">Josh Brewer</a></li>
+<li><a href="https://twitter.com/elliotjaystocks">Elliot Jay Stocks</a></li>
+<li><a href="https://twitter.com/simplebits">Dan Cederholm</a></li>
+<li><a href="https://twitter.com/smashingmag">Smashing Magazine</a></li>
+</ul>
+
+
+<h3><a href="http://www.abookapart.com/products/html5-for-web-designers">HTML5 for Web Designers by Jeremy Keith</a></h3>
+
+<p>HTML5 for Web Designers is a great read by the extremely entertaining <a href="http://adactio.com/">Jeremy Keith</a>. The book is only about 80 pages but it manages to give you a quick history of how we got to HTML5 (which is great to learn when you’re starting because it has become a bit of a buzzword) and the advantages/disadvantages of using it. This isn’t a how-to book, albeit there a few examples using code, but more of a book about HTML5 semantics and what it brings to the table that we didn’t have before.</p>
+
+<p>Again, it’s a quick read and a good introduction to the <a href="http://www.abookapart.com/">A Book Apart</a> series which will come up later in the road map.</p>
+
+<h3><a href="http://www.smashingmagazine.com/">Smashing Magazine</a></h3>
+
+<p>When I found smashingmagazine.com I felt like a kid in a candy store. Articles are uploaded constantly and sorted by Design, Coding, UX, etc. They feature an abundance of tutorials on various topics to help a beginner learn the ins-and-outs as well as articles discussing current web topics. This is a great place to spend the first couple of months.</p>
+
+<h3><a href="http://dribbble.com/">Dribbble</a></h3>
+
+<p>Dribbble is a place where designers can post images of their current projects. Whether it’s a snapshot or a full size picture, you can get a sense of the different design styles out there and might help you develop your own. Insight into the design process of big name web designers is an invaluable resource to have when you’re trying to figure out your own process. This is the place to get that and read what people critique. Later you might be able to contribute to the site as well.</p>
+
+<h3><a href="http://css-tricks.com/">CSS-Tricks</a></h3>
+
+<p>CSS-Tricks.com is a resource you will inevitably come across if you are doing anything web related. Chris Coyier is the brains behind the content and pumps out relevant and quality content at a rapid pace. Some of the posts come with live interactive demo’s to illustrate the concept. This is a resource that will become very useful even after you’re completely familiar with web design.</p>
+
+<h2>End of part 1</h2>
+
+<p>These resources will help get you started and familiar with concepts and terms that you will see over and over. I recommend doing the tutorials in each of the sites and reading about the concepts you use in them. The first few months is the best time to see how people are writing their code or designing their products in order to pick up good habits right from the start.</p>
+
+<p>Again this might take you longer or shorter than 3 months but the key is to move on when you think you’re ready. There is no point in overloading yourself with information if you can’t do anything with it.</p>
+
+<p>Part II and III will be up soon!</p>
 
            
         </div>
@@ -83,7 +147,7 @@
 
         <!-- JS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="http://josecamou.com/next_v/js/main.js"></script>
+        <script src="/GitHub/josecamou-com/_site/js/main.js"></script>
 
         <!-- Analytics 
         <script>

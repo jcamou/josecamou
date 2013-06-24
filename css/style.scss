@@ -80,11 +80,11 @@ body {
 }
 
 .content>article p {
+	color: $text-font;
+	font-weight: 300;
 	font-style: normal;
 	font-size: 1.4rem;
-	font-weight: 400;
-	line-height: 2rem;
-	color: $text-font;
+	line-height: 2.2rem;
 }
 
 .preview .meta time {
@@ -92,8 +92,8 @@ body {
 }
 
 .post-header {
-	text-align: center;
 	margin-bottom: 2em;
+	text-align: center;
 
 	.post-precontent {
 		font-style: italic;
@@ -102,55 +102,84 @@ body {
 }
 
 .site-footer {
-	font-family:  $sans-serif;
+	color: $text-font;
 	text-align: center;
 	text-transform: uppercase;
-	color: $text-font;
-	line-height: 3rem;
 	font-weight: 400;
+	font-family:  $sans-serif;
+	line-height: 3rem;
+
+	@media (max-width: 650px) and (min-width: 0px) { 
+		font-size: .8em;
+	}	
+}
+
+.main-content li {
+	font-style: italic;
+	font-size: 1.25em;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: 500; 
+}
+
+code {
+	font-family: monaco;
+	font-size: .8em;
+	color: $normal-grey;
+}
+
+small {
+	font-size: .75em;
 }
 
 /* Headings
 -------------------------------------------------------------- */
 h1, h2, h3, h4{
-	color: $red;
+	margin-bottom: .875rem;
+	color: $normal-grey;
 	font: 4.5em  $sans-serif;
 	font-weight: 300;
-	margin-bottom: .875rem;
 	line-height: 1em;
 }
 
 h2{
+	padding: .875em  0 0.2em;
+	border-top: 1px dashed white;
 	font-size: 2.5em;
-	border-top: 1px dashed rgba(0,0,0,0.15);
-	padding: 0.4em  0 0.2em;
 }
 
 .preview h2 {
 	margin-bottom: .5em;
 }
+
 h3{
-	font-size: 2.25em;
+	margin-top: 1em;
+	font-size: 1.7em;
 }
 
 h1{
 	&.my-name {
-		font-family:  $sans-serif;
-		font-style: normal;
-		font-size: 1rem;
-		font-weight: 400;
-		line-height: 3.5rem;
-		color: $red;
-		left: 0;
-		letter-spacing: 1px;
 		position: absolute;
-		right: 0;
-		text-align: center;
-		text-transform: uppercase;
 		top: 0;
-		white-space: nowrap;
+		right: 0;
+		left: 0;
 		z-index: 1;
 		width: 100%;
+		color: $red;
+		text-align: center;
+		text-transform: uppercase;
+		white-space: nowrap;
+		letter-spacing: 1px;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 1rem;
+		font-family:  $sans-serif;
+		line-height: 3.5rem;
 	}
 }
 
@@ -197,7 +226,7 @@ a.pullout-nav {
 	@include vendor-prefix(transition, all 0.3s ease-in-out);
 	background: $blue-background;
 	padding: .875em;
-	top: 65%;
+	top: 55%;
 	width: 9em;
 }
 
@@ -206,6 +235,8 @@ a.pullout-nav {
 	right: 0;
 	margin-right: -8em;
 	text-align: right;
+	padding-top: 1em;
+	padding-bottom: .8em;
 
 	&:hover {
 		margin-right:0;
@@ -216,6 +247,9 @@ a.pullout-nav {
 		font-family: 'Pictos Custom';
     	-webkit-font-smoothing: antialiased;
 		content: attr(data-icon);
+		font-size: 1.5em;
+		margin-right: 1em;
+		vertical-align: -4px;
 	}
 }
 
@@ -223,28 +257,63 @@ a.pullout-nav {
 	position: fixed;
 	left: 0;
 	margin-left: -8em;
+	padding-bottom: 1.1em;
 	text-align: left;
+
+	span.mirror {
+		display: inline-block;
+		margin-left: 1em;
+		content: attr(data-icon);
+		vertical-align: .11em;
+		font-size: 1.5em;
+		font-family: 'Pictos Custom';
+	    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	    -webkit-transform: rotate(-180deg);
+		-moz-transform: rotate(-180deg);
+	    transform: rotate(-180deg);
+    	-webkit-font-smoothing: antialiased;
+	}
 
 	&:hover {
 		margin-left: 0;
 		background: white;
 	}
 }
+
+/* Lists
+-------------------------------------------------------------- */
+.main-content {
+
+	ol {
+		list-style-type: decimal;
+	}
+
+	ol, ul {
+		padding: 1em;
+		margin-left: 2em;
+		margin-bottom: 1em; 
+	}
+
+	li {
+		margin-bottom: .875em;
+	}
+}
+
 /* Navigation
 -------------------------------------------------------------- */
 .site-nav {
 	
 
 	.nav-content {
+		@include vendor-prefix(box-orient, horizontal);
+		@include vendor-prefix(box-align, stretch);
+		position: relative;
+		z-index: 2;
 		display: -webkit-box;
 		display: -moz-box;
 		display: -ms-box;
 		display: box;
-		@include vendor-prefix(box-orient, horizontal);
-		@include vendor-prefix(box-align, stretch);
-		position: relative;
 		width: 100%;
-		z-index: 2;
 	}
 
 	ul {
@@ -274,16 +343,16 @@ a.pullout-nav {
 	  		*display: inline;
 
 	  		a {
-	  			font-family:  $sans-serif;
-	  			font-size: 1rem;
-	  			font-weight: 400;
-	  			line-height: 3.5rem;
-	  			letter-spacing: 1px;
-	  			padding: 0 1rem;
 	  			position: relative;
+	  			padding: 0 1rem;
+	  			color: $text-font;
 	  			text-align: center;
 	  			text-transform: uppercase;
-	  			color: $text-font;
+	  			letter-spacing: 1px;
+	  			font-weight: 400;
+	  			font-size: 1rem;
+	  			font-family:  $sans-serif;
+	  			line-height: 3.5rem;
 
 	  			&:hover {
 	  				color: $red;
@@ -295,14 +364,14 @@ a.pullout-nav {
 
 	.pullout-nav {
 		position: absolute;
-		font-family: $sans-serif;
-		font-size: 1rem;
-  		font-weight: 400;
-  		letter-spacing: 1px;
-  		text-transform: uppercase;
-		left: 0;
 		top: 0;
+		left: 0;
 		z-index: 4;
+  		text-transform: uppercase;
+  		letter-spacing: 1px;
+  		font-weight: 400;
+		font-size: 1rem;
+		font-family: $sans-serif;
 	}
 
 }
@@ -310,8 +379,17 @@ a.pullout-nav {
 /* Media
 -------------------------------------------------------------- */
 p img {
+
 	border: 1px solid $border-grey;
 
+	&.no-border {
+		border: none;
+	}
+
+}
+
+.post-header img {
+	border: 1px solid $border-grey;
 }
 
 /* Layout
@@ -321,15 +399,15 @@ body {
 }
 
 .header {
-	width: 100%;
-	float: left;
-	left: 0;
 	position: fixed;
-	right: 0;
 	top: 0;
-	visibility: visible;
-	white-space: nowrap;
+	right: 0;
+	left: 0;
 	z-index: 3;
+	visibility: visible;
+	float: left;
+	width: 100%;
+	white-space: nowrap;
 	
 	@include vendor-prefix(box-shadow, 0 0 15px rgba(0,0,0,0.15));
 	@include vendor-prefix(box-shadow, 0 1px 0 $baby-blue);
@@ -458,6 +536,11 @@ body {
 			margin-right: 0%;
 			margin-left: 30%;
 			padding-right: 3%;
+
+			&.preview {
+				margin-right: 30%;
+				margin-left: 28%;
+			}
 		}
 	}
 }
@@ -483,6 +566,11 @@ body {
 			margin-left: 16.66667%;
 			padding-left: 8.33333%;
 			padding-right: 10%;
+
+			&.preview {
+				margin-right: 25%;
+				margin-left: 20%;
+			}
 		}
 	}
 }
@@ -509,6 +597,11 @@ body {
 			margin-left: 8.33333%;
 			padding-left: 8.33333%;
 			padding-right: 8.33333%;
+
+			&.preview {
+				margin-right: 0%;
+				margin-left: 15%;
+			}
 		}
 	}
 }
@@ -577,7 +670,7 @@ body {
 				}
 			}
 
-			p {
+			p, ul li, ol li {
 				font-size: 1em;
 				line-height: 1.55rem;
 			}
@@ -600,6 +693,18 @@ body {
 			line-height: 1.4em;
 		}
 
+		h2 {
+			font-size: 1.75em;
+		}
+
+		h3 {
+			font-size: 1.4em;
+		}
+
+		ol, ul {
+			margin-left: .5em;
+		}
+
 		
 	}
 
@@ -616,15 +721,18 @@ body {
 		position: static;
 		margin: 0;
 		text-align: center;
-		padding: 1em 0;
+		
 	}
 	
 	.older a {
 		float: right;
+		padding: 1em 0 .7em;
 	}
 
 	.newer a {
 		float: left;
+		padding: .89em 0 1em;
+		vertical-align: 3em;
 	}
 
 

@@ -71,71 +71,93 @@ img, video {
 /* Typography
 -------------------------------------------------------------- */
 body {
-  font: normal 100% Georgia, "Times New Roman", serif;
+  font: normal 100% "Merriweather", Georgia, "Times New Roman", serif;
   color: #27313e; }
 
 .content > article p {
+  color: #27313e;
+  font-weight: 300;
   font-style: normal;
   font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 2rem;
-  color: #27313e; }
+  line-height: 2.2rem; }
 
 .preview .meta time {
   color: #555555; }
 
 .post-header {
-  text-align: center;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  text-align: center; }
   .post-header .post-precontent {
     font-style: italic;
     font-size: 1em; }
 
 .site-footer {
-  font-family: "omnes-pro", sans-serif;
+  color: #27313e;
   text-align: center;
   text-transform: uppercase;
-  color: #27313e;
-  line-height: 3rem;
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: "omnes-pro", sans-serif;
+  line-height: 3rem; }
+  @media (max-width: 650px) and (min-width: 0px) {
+    .site-footer {
+      font-size: .8em; } }
+
+.main-content li {
+  font-style: italic;
+  font-size: 1.25em; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: 500; }
+
+code {
+  font-family: monaco;
+  font-size: .8em;
+  color: #555555; }
+
+small {
+  font-size: .75em; }
 
 /* Headings
 -------------------------------------------------------------- */
 h1, h2, h3, h4 {
-  color: #ff6666;
+  margin-bottom: .875rem;
+  color: #555555;
   font: 4.5em "omnes-pro", sans-serif;
   font-weight: 300;
-  margin-bottom: .875rem;
   line-height: 1em; }
 
 h2 {
-  font-size: 2.5em;
-  border-top: 1px dashed rgba(0, 0, 0, 0.15);
-  padding: 0.4em 0 0.2em; }
+  padding: .875em  0 0.2em;
+  border-top: 1px dashed white;
+  font-size: 2.5em; }
 
 .preview h2 {
   margin-bottom: .5em; }
 
 h3 {
-  font-size: 2.25em; }
+  margin-top: 1em;
+  font-size: 1.7em; }
 
 h1.my-name {
-  font-family: "omnes-pro", sans-serif;
-  font-style: normal;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 3.5rem;
-  color: #ff6666;
-  left: 0;
-  letter-spacing: 1px;
   position: absolute;
+  top: 0;
   right: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  color: #ff6666;
   text-align: center;
   text-transform: uppercase;
-  top: 0;
   white-space: nowrap;
-  z-index: 1;
-  width: 100%; }
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  font-family: "omnes-pro", sans-serif;
+  line-height: 3.5rem; }
 
 /* Links
 -------------------------------------------------------------- */
@@ -185,38 +207,63 @@ a.pullout-nav {
   -o-transition: all 0.3s ease-in-out;
   background: rgba(254, 254, 254, 0.3);
   padding: .875em;
-  top: 65%;
+  top: 55%;
   width: 9em; }
 
 .older a {
   position: fixed;
   right: 0;
   margin-right: -8em;
-  text-align: right; }
+  text-align: right;
+  padding-top: 1em;
+  padding-bottom: .8em; }
   .older a:hover {
     margin-right: 0;
     background: white; }
   .older a:before {
     font-family: 'Pictos Custom';
     -webkit-font-smoothing: antialiased;
-    content: attr(data-icon); }
+    content: attr(data-icon);
+    font-size: 1.5em;
+    margin-right: 1em;
+    vertical-align: -4px; }
 
 .newer a {
   position: fixed;
   left: 0;
   margin-left: -8em;
+  padding-bottom: 1.1em;
   text-align: left; }
+  .newer a span.mirror {
+    display: inline-block;
+    margin-left: 1em;
+    content: attr(data-icon);
+    vertical-align: .11em;
+    font-size: 1.5em;
+    font-family: 'Pictos Custom';
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    -webkit-font-smoothing: antialiased; }
   .newer a:hover {
     margin-left: 0;
     background: white; }
 
+/* Lists
+-------------------------------------------------------------- */
+.main-content ol {
+  list-style-type: decimal; }
+.main-content ol, .main-content ul {
+  padding: 1em;
+  margin-left: 2em;
+  margin-bottom: 1em; }
+.main-content li {
+  margin-bottom: .875em; }
+
 /* Navigation
 -------------------------------------------------------------- */
 .site-nav .nav-content {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
-  display: box;
   box-orient: horizontal;
   -webkit-box-orient: horizontal;
   -ms-box-orient: horizontal;
@@ -228,8 +275,12 @@ a.pullout-nav {
   -moz-box-align: stretch;
   -o-box-align: stretch;
   position: relative;
-  width: 100%;
-  z-index: 2; }
+  z-index: 2;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  width: 100%; }
 .site-nav ul {
   overflow: hidden;
   position: relative;
@@ -251,32 +302,37 @@ a.pullout-nav {
     zoom: 1;
     *display: inline; }
     .site-nav ul li a {
-      font-family: "omnes-pro", sans-serif;
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 3.5rem;
-      letter-spacing: 1px;
-      padding: 0 1rem;
       position: relative;
+      padding: 0 1rem;
+      color: #27313e;
       text-align: center;
       text-transform: uppercase;
-      color: #27313e; }
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 1rem;
+      font-family: "omnes-pro", sans-serif;
+      line-height: 3.5rem; }
       .site-nav ul li a:hover {
         color: #ff6666; }
 .site-nav .pullout-nav {
   position: absolute;
-  font-family: "omnes-pro", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  left: 0;
   top: 0;
-  z-index: 4; }
+  left: 0;
+  z-index: 4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "omnes-pro", sans-serif; }
 
 /* Media
 -------------------------------------------------------------- */
 p img {
+  border: 1px solid #cccccc; }
+  p img.no-border {
+    border: none; }
+
+.post-header img {
   border: 1px solid #cccccc; }
 
 /* Layout
@@ -285,15 +341,15 @@ body {
   position: relative; }
 
 .header {
-  width: 100%;
-  float: left;
-  left: 0;
   position: fixed;
-  right: 0;
   top: 0;
-  visibility: visible;
-  white-space: nowrap;
+  right: 0;
+  left: 0;
   z-index: 3;
+  visibility: visible;
+  float: left;
+  width: 100%;
+  white-space: nowrap;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   -ms-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
@@ -393,7 +449,10 @@ body {
       float: left;
       margin-right: 0%;
       margin-left: 30%;
-      padding-right: 3%; } }
+      padding-right: 3%; }
+      .content article.preview {
+        margin-right: 30%;
+        margin-left: 28%; } }
 @media (max-width: 1484px) and (min-width: 1200px) {
   .content {
     max-width: 100%;
@@ -411,7 +470,10 @@ body {
       margin-right: 0%;
       margin-left: 16.66667%;
       padding-left: 8.33333%;
-      padding-right: 10%; } }
+      padding-right: 10%; }
+      .content article.preview {
+        margin-right: 25%;
+        margin-left: 20%; } }
 @media (max-width: 1199px) and (min-width: 650px) {
   .content {
     max-width: 100%;
@@ -429,7 +491,10 @@ body {
       margin-right: 0%;
       margin-left: 8.33333%;
       padding-left: 8.33333%;
-      padding-right: 8.33333%; } }
+      padding-right: 8.33333%; }
+      .content article.preview {
+        margin-right: 0%;
+        margin-left: 15%; } }
 @media (max-width: 650px) and (min-width: 0px) {
   .site-nav .nav-content {
     opacity: 0;
@@ -472,7 +537,7 @@ body {
         font-size: 2em; }
       .content > article.preview .meta {
         width: 90%; }
-    .content > article p {
+    .content > article p, .content > article ul li, .content > article ol li {
       font-size: 1em;
       line-height: 1.55rem; }
     .content.expanded {
@@ -484,6 +549,12 @@ body {
   .main-content p:first-child {
     font-size: 1.5em;
     line-height: 1.4em; }
+  .main-content h2 {
+    font-size: 1.75em; }
+  .main-content h3 {
+    font-size: 1.4em; }
+  .main-content ol, .main-content ul {
+    margin-left: .5em; }
 
   .pagination {
     margin-top: 2em; }
@@ -494,11 +565,13 @@ body {
   .older a, .newer a {
     position: static;
     margin: 0;
-    text-align: center;
-    padding: 1em 0; }
+    text-align: center; }
 
   .older a {
-    float: right; }
+    float: right;
+    padding: 1em 0 .7em; }
 
   .newer a {
-    float: left; } }
+    float: left;
+    padding: .89em 0 1em;
+    vertical-align: 3em; } }

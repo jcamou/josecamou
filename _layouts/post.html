@@ -19,12 +19,12 @@ layout: default
     <nav class="pagination">
       {% if page.articles_older %}
         <div class="older">
-          <a href="{{site.site_url}}{{page.articles_older.url}}" rel="prev" data-icon=">">Older Posts</a>
+          <a href="{{site.site_url}}{{page.articles_older.url}}" rel="prev" data-icon=">">Older Post</a>
         </div>
       {% endif %}
       {% if page.articles_newer %}
         <div class="newer">
-          <a href="{{site.site_url}}{{page.articles_newer.url}}" rel="newer">Newer Posts</a>
+          <a href="{{site.site_url}}{{page.articles_newer.url}}" rel="newer" >Newer Post<span class="mirror" >></span></a>
         </div>
       {% endif %}
     </nav>
