@@ -6,9 +6,11 @@ title: José Camou
     {% for post in site.posts limit: 1 %}
         <header class="post-header">
             <h1>{{post.title}}</h1>
+            {% if post.date %}
               <p class="post-precontent">
-                    <time pubdate>Mar 5th, 2013</time>
+                    <time pubdate>{{post.date | date: "%b %d, %Y"}}</time>
               </p>
+            {% endif %}
         </header>
 
         <div class="main-content">

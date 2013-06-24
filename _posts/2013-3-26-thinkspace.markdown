@@ -9,6 +9,8 @@ description: "Marketing site for ThinkSpace to bring new users and engage curren
 
 ThinkSpace needed a place that could both educate new users while still engaging current users. 
 
+[thinkspace.org](http://www.thinkspace.org/)
+
 ![thinkspace about]({{site.site_url}}/img/projects/thinkspace-org/about.png "ThinkSpace About")
 
 I designed [thinkspace.org](http://thinkspace-landing.herokuapp.com/ "ThinkSpace.org"), inspired by the mailchimp annual report, to introduce ThinkSpace in a sequence of steps much like a story. Each step fades to a different color to keep the user engaged with new illustrations and information.  

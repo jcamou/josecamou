@@ -9,4 +9,11 @@ $(document).ready(function() {
 	  	$content.toggleClass('expanded');
 	  	return false;
 	});
+
+	wt.fix({
+		elements: '.content h1, .content p',
+		chars: 5,
+		method: 'nbsp',
+		event:'resize'
+	});
 });
