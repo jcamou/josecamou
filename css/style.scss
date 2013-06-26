@@ -1,4 +1,5 @@
 @import "variables";
+@import "icon-font";
 
 /* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
 -------------------------------------------------------------- */
@@ -235,7 +236,6 @@ a.pullout-nav {
 	right: 0;
 	margin-right: -8em;
 	text-align: right;
-	padding-top: 1em;
 	padding-bottom: .8em;
 
 	&:hover {
@@ -243,13 +243,8 @@ a.pullout-nav {
 		background: white;
 	}
 
-	&:before {
-		font-family: 'Pictos Custom';
-    	-webkit-font-smoothing: antialiased;
-		content: attr(data-icon);
-		font-size: 1.5em;
-		margin-right: 1em;
-		vertical-align: -4px;
+	.fs1{
+		float: left;
 	}
 }
 
@@ -257,26 +252,16 @@ a.pullout-nav {
 	position: fixed;
 	left: 0;
 	margin-left: -8em;
-	padding-bottom: 1.1em;
+	padding-bottom: .8em;
 	text-align: left;
-
-	span.mirror {
-		display: inline-block;
-		margin-left: 1em;
-		content: attr(data-icon);
-		vertical-align: .11em;
-		font-size: 1.5em;
-		font-family: 'Pictos Custom';
-	    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-	    -webkit-transform: rotate(-180deg);
-		-moz-transform: rotate(-180deg);
-	    transform: rotate(-180deg);
-    	-webkit-font-smoothing: antialiased;
-	}
 
 	&:hover {
 		margin-left: 0;
 		background: white;
+	}
+
+	.fs1 {
+		float: right;
 	}
 }
 
@@ -726,12 +711,12 @@ body {
 	
 	.older a {
 		float: right;
-		padding: 1em 0 .7em;
+		padding: 1em 0 1em;
 	}
 
 	.newer a {
 		float: left;
-		padding: .89em 0 1em;
+		padding: 1em 0 1em;
 		vertical-align: 3em;
 	}
 

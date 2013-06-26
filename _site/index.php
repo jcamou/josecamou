@@ -13,7 +13,7 @@
         
         <link rel="shortcut icon" href="/favicon.ico" />
 
-        <link rel="stylesheet" href="/GitHub/josecamou-com/_site/css/style.css">
+        <link rel="stylesheet" href="http://josecamou.com/css/style.css">
         
         <!-- fonts -->
         <script type="text/javascript" src="//use.typekit.net/vuo0kub.js"></script>
@@ -22,7 +22,7 @@
         <link href="//get.pictos.cc/fonts/4071/1" rel="stylesheet" type="text/css">
 
         <!-- Widow Tamer -->
-        <script src="/GitHub/josecamou-com/_site/js/widowtamer.js"></script>
+        <script src="http://josecamou.com/js/widowtamer.js"></script>
         
     </head>
     <body>
@@ -38,18 +38,18 @@
                     <div class="nav-content">
                         <ul class="left">
                             <li>
-                                <a href="/GitHub/josecamou-com/_site">Home</a>
+                                <a href="http://josecamou.com">Home</a>
                             </li>
                             <li>
-                                <a href="/GitHub/josecamou-com/_site/about/">About</a>
+                                <a href="http://josecamou.com/about/">About</a>
                             </li>
                         </ul>
                         <ul class="right">
                             <li>
-                                <a href="/GitHub/josecamou-com/_site/articles/">Articles</a>
+                                <a href="http://josecamou.com/articles/">Articles</a>
                             </li>
                             <li>
-                                <a href="/GitHub/josecamou-com/_site/work/">Work</a>
+                                <a href="http://josecamou.com/work/">Work</a>
                             </li>
                         </ul>
                     </div>
@@ -61,7 +61,7 @@
         <article class="container">
     
         <header class="post-header">
-            <h1>A year’s worth of web design resources (part I)</h1>
+            <h1>A Year’s Worth of Web Design Resources (part I)</h1>
             
               <p class="post-precontent">
                     <time pubdate>Jun 23, 2013</time>
@@ -147,15 +147,22 @@
 
         <!-- JS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="/GitHub/josecamou-com/_site/js/main.js"></script>
+        <script src="http://josecamou.com/js/main.js"></script>
 
-        <!-- Analytics 
-        <script>
-            var _gaq=[['_setAccount','UA-35671892-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+        <!-- Analytics -->
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-35671892-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
         </script>
-        -->
+        
     </body>
 </html>

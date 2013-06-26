@@ -7,6 +7,26 @@
 ---------------------------------- */
 /* Mixins
 ---------------------------------- */
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot");
+  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype"), url("fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5em;
+  vertical-align: -4px; }
+
 /* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
 -------------------------------------------------------------- */
 html, body, div, span, applet, object, iframe,
@@ -215,40 +235,24 @@ a.pullout-nav {
   right: 0;
   margin-right: -8em;
   text-align: right;
-  padding-top: 1em;
   padding-bottom: .8em; }
   .older a:hover {
     margin-right: 0;
     background: white; }
-  .older a:before {
-    font-family: 'Pictos Custom';
-    -webkit-font-smoothing: antialiased;
-    content: attr(data-icon);
-    font-size: 1.5em;
-    margin-right: 1em;
-    vertical-align: -4px; }
+  .older a .fs1 {
+    float: left; }
 
 .newer a {
   position: fixed;
   left: 0;
   margin-left: -8em;
-  padding-bottom: 1.1em;
+  padding-bottom: .8em;
   text-align: left; }
-  .newer a span.mirror {
-    display: inline-block;
-    margin-left: 1em;
-    content: attr(data-icon);
-    vertical-align: .11em;
-    font-size: 1.5em;
-    font-family: 'Pictos Custom';
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-    -webkit-font-smoothing: antialiased; }
   .newer a:hover {
     margin-left: 0;
     background: white; }
+  .newer a .fs1 {
+    float: right; }
 
 /* Lists
 -------------------------------------------------------------- */
@@ -569,9 +573,9 @@ body {
 
   .older a {
     float: right;
-    padding: 1em 0 .7em; }
+    padding: 1em 0 1em; }
 
   .newer a {
     float: left;
-    padding: .89em 0 1em;
+    padding: 1em 0 1em;
     vertical-align: 3em; } }

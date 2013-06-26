@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A year’s worth of web design resources (part I)"
+title: "A Year’s Worth of Web Design Resources (part I)"
 date: June 23, 2013
 categories: articles
 tags: Resources

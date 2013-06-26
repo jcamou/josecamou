@@ -13,9 +13,9 @@ I was in a band in my late teens, early twenties and still have many friends dee
 ## Startups vs Bands
 I’ve always been amazed at how similar a startup is to a starting band. 
 
-+   They both have an idea that needs to be distributed. 
-+   They both can take advantage of online markets. 
-+   Communication with fan/user base is crucial.
++   They both have an idea that needs to be distributed
++   Tight budget
++   Communication with fan/user base is crucial
 
 The startup can have an app or a product launch in various platforms and distributed in different places but you can always count on finding more information about the product on the product’s _webpage_. 
 

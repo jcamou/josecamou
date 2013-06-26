@@ -45,7 +45,7 @@ I went with a bigger font size to provide what I felt was an easier reading expe
 
 ![portfolio 4b]({{site.site_url}}/img/posts/portfolio-journey/portfolio-4b.png "portfolio 4b")
 
-![portfolio 4c]({{site.site_url}}/img/posts/portfolio-journey/portfolio-4c "portfolio 4c")
+![portfolio 4c]({{site.site_url}}/img/posts/portfolio-journey/portfolio-4c.png "portfolio 4c")
 
 I kept the same colors as version three but went with a different font. I made sure to make it responsive. 
 

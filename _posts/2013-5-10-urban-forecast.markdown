@@ -11,7 +11,7 @@ This project was motivated by the drug war violence happening in parts Mexico wh
 
 <img class="no-border" src="{{site.site_url}}/img/projects/urban-forecast/mainscreen-1.png">
 
-Currently people living in affected areas use social media channels like Twitter to gather information about dangerous situations happening around them. They use text-based software for visual information. Urban Forecast is a solution focused on facilitating the spread of crisis information by using the public as the source. 
+People currently living in affected areas use social media channels like Twitter to gather information about dangerous situations happening around them. They use text-based software for visual information. Urban Forecast is a solution focused on facilitating the spread of crisis information by using the public as the source. 
 
 <img class="no-border" src="{{site.site_url}}/img/projects/urban-forecast/mainscreen-trio.png">
 
