@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A year's worth of web design resources (part II)"
+title: "A year’s worth of web design resources (part II)"
 date: May 31, 2013
 categories: articles
 tags: resources
@@ -20,15 +20,36 @@ Using a swimming metaphor seems appropriate for this content.
 
 Each chunk represents the chunk in the year where I found a resource the most helpful without getting too overwhelmed (which is something that happens often in a field where new technologies pop up daily). The items within the chunk are in a recommended order but feel free to jump around. You might find that it takes you longer than a year to feel as comfortable or maybe shorter, but do not get discouraged. Everyone has a different pace. 
 
-## Getting your feet wet
+## Dunking the crotch
 
-### Twitter
+### Online Learning
+#### Treehouse or Code Academy
 
-### HTML5 for Web Designers by Jeremy Keith
+### Fonts
+#### Typedia
 
-### Smashing Magazine 
 
-### Dribbble
 
-### CSS-Tricks
+#### Inspect Element Tool on Chrome or Firefox
+
+### Podcasts
+#### ShopTalk Show 
+
+#### The Big Web Show
+
+### Websites
+#### The Great Discontent
+
+#### A List Apart
+
+#### UX Magazine
+
+#### Photoshop Etiquette
+
+#### Dochub
+
+
+### Method & Craft
+
+### Authenticjobs.com
 

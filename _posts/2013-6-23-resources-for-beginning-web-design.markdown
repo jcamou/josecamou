@@ -23,7 +23,7 @@ Each chunk represents the time in the year where I found a resource the most hel
 ## Getting your feet wet
 
 ### [Twitter](https://twitter.com/)
-First things first, get a Twitter account if you haven’t gotten one yet. Twitter puts you in the center of the conversation between the big names who love talking about the most recent technology and articles. Even if at first you don’t understand any of what they’re saying, the more you read what they’re talking about and see what they’re doing the more familiar things will seem. So when you hear someone talk about "Flexbox" you can easily follow along or even better you can have some input in the conversation. 
+First things first, get a Twitter account if you haven’t gotten one yet. Twitter puts you in the center of the conversation between the big names who love talking about the most recent technology and articles. Even if at first you don’t understand any of what they’re saying, the more you read what they’re talking about and see what they’re doing the more familiar things will seem. So when you hear someone talk about “Flexbox” you can easily follow along or even better you can have some input in the conversation. 
 
 Once you have a twitter account, here are a few people you should be following (and feel free to see who they’re following and follow them as well):
 	

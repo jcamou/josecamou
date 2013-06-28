@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://josecamou.com/</loc>
+</url>
+<url>
+  <loc>http://josecamou.com/about/</loc>
+  <lastmod>2013-06-26T17:05:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/articles/</loc>
+  <lastmod>2013-06-26T17:05:17+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/work/</loc>
+  <lastmod>2013-06-26T17:14:08+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/articles/resources-for-beginning-web-design/</loc>
+  <lastmod>2013-06-26T17:05:22+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/articles/portfolio/</loc>
+  <lastmod>2013-06-26T17:05:19+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/articles/bands-stuck-in-the-90s/</loc>
+  <lastmod>2013-06-26T17:05:14+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/work/thinkspace-web-app/</loc>
+  <lastmod>2013-06-26T17:14:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/work/urban-forecast/</loc>
+  <lastmod>2013-06-26T17:14:16+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/work/thinkspace/</loc>
+  <lastmod>2013-06-26T17:14:10+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/work/filmhauz/</loc>
+  <lastmod>2013-06-26T17:14:01+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/work/conference-posters/</loc>
+  <lastmod>2013-06-26T17:13:59+00:00</lastmod>
+</url>
+<url>
+  <loc>http://josecamou.com/work/illustration-collection/</loc>
+  <lastmod>2013-06-26T17:14:05+00:00</lastmod>
+</url>
+</urlset>
